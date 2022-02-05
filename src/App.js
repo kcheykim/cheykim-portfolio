@@ -7,6 +7,7 @@ function App() {
     <div>
       <Nav></Nav>
       <main>
+        <Portfolio></Portfolio>
         <About></About>
       </main>
     </div>
