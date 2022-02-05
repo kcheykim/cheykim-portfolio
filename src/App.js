@@ -3,11 +3,13 @@ import Nav from './components/Nav';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 
+
+
 function App() {
   const [categories] = useState([
     { name: 'Portfolio', description: 'A showcase of my projects and weekly challenges.' },
     { contact: 'Contact', description: 'Ways to contact me.' },
-    { resume: 'Portfolio', description: 'My Resume.' }
+    { resume: 'Resume', description: 'My Resume.' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -16,7 +18,7 @@ function App() {
     <div>
       <Nav categories={categories} setCurrentCategory={setCurrentCategory} currentCategory={currentCategory}></Nav>
       <main>
-        <Portfolio></Portfolio>
+        <Portfolio currentCategory={currentCategory}></Portfolio>
         <About></About>
       </main>
     </div>

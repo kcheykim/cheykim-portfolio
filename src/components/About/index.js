@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from '../../assets/me/my-image.JPG';
+import coverImage from '../../assets/images/me/my-image.JPG';
 
 function About() {
   return (
