@@ -32,7 +32,9 @@ function App() {
   //set to categories[0] for initial state
   return (
     <div>
-      <Nav categories={categories} setCurrentCategory={setCurrentCategory} currentCategory={currentCategory}></Nav>
+      <Nav categories={categories} 
+      setCurrentCategory={setCurrentCategory} 
+      currentCategory={currentCategory}></Nav>
       <main>
         {renderPage()}
       </main>

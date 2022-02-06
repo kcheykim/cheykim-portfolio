@@ -21,10 +21,10 @@ main {
   box-sizing: border-box;
 }
 
-html,
+/* html,
 body {
   min-height: 100%;
-}
+} */
 
 body {
   margin: 0;
@@ -38,6 +38,7 @@ body {
   font-family: 'Poiret One', cursive;
   background-image: url("../src/assets/images/purpleLandscape.jpeg");
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1,
@@ -160,6 +161,7 @@ li {
   list-style: none;
 }
 
+
 nav a:hover {
   text-decoration: none;
 }
@@ -251,7 +253,6 @@ textarea {
 .img-thumbnail {
   width: auto;
   height: 300px;
-  margin-bottom: 50px;
   cursor: pointer;
 }
 
@@ -305,4 +306,27 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+#contact-form {
+  padding: 1%;
+  margin-left: 10px;
+  border: var(--darker) solid 3px;
+  border-radius: 10px;
+}
+
+#about,
+#portfolio,
+#contact,
+#resume{
+  margin-left: 5%;
+
+}
+
+#about h1,
+#portfolio h1,
+#contact h1,
+#resume h1{
+
+  font-size: 3rem;
 }
