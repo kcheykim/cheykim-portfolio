@@ -26,12 +26,6 @@ function Nav(props) {
       </h2>
       <nav>
         <ul className='flex-row'>
-          <li className='mx-2'>
-            <a href='#about'>About me</a>
-          </li>
-          <li className="mx-2">
-            <span>Contact</span>
-          </li>
           {categories.map((category) => (
              <li
              className={`mx-1 ${

@@ -10,6 +10,8 @@ const Project = ({project}) => {
             className="img-thumbnail mx-1"
             key={project.name}
           />
+          <h1>{project.name}</h1>
+          <p>{project.description}</p>
     </div>
   );
 };
