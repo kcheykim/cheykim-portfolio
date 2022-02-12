@@ -15,9 +15,16 @@ function App() {
     { name: "Resume", description: "Here is my resume." }
   ]);
 
+  const [tech] = useState([
+    // { name: "Home", description: "A showcase of my projects and weekly challenges." },
+    { name: "Front-End", description: "html, css, javascript" },
+    { name: "Back-End", description: "this node/express project" },
+    { name: "Fullstack", description: "usign both front end and backend" }
+  ]);
+
   const renderPage = () => {
     if (currentCategory.name === "Portfolio") {
-      return <Portfolio currentCategory={currentCategory} />;
+      return <Portfolio currentCategory={currentCategory} tech={tech} />;
     }
     if (currentCategory.name === "About") {
       return <About currentCategory={currentCategory} />;

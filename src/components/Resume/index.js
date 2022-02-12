@@ -12,7 +12,7 @@ function Resume() {
         <h3 className="mx-5"><BsGithub /> <DiReact /> <DiMongodb /> <GrNode /> <GrHeroku /> </h3>
       </div>
       <div>
-      <a href="cheykim-portfolio/assets/images/kcheykim_resume.pdf"><button>Resume</button></a>
+      <a href="/assets/images/kcheykim_resume.pdf"><button>Resume</button></a>
       </div>
     </section>
   );
