@@ -13,7 +13,7 @@ function Resume() {
         <h3 className="mx-5"><BsGithub /> <DiReact /> <DiMongodb /> <GrNode /> <GrHeroku /> </h3>
       </div>
       <div>
-      <a href={pdf} download ><button>Resume</button></a>
+      <a href={require("../../assets/images/kcheykim_resume.pdf")} download ><button>Resume</button></a>
       </div>
     </section>
   );
