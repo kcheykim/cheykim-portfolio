@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/cheykim-portfolio/static/css/main.3d35848d.css",
-    "main.js": "/cheykim-portfolio/static/js/main.74a52486.js",
+    "main.js": "/cheykim-portfolio/static/js/main.52284bb1.js",
     "static/js/787.4192f880.chunk.js": "/cheykim-portfolio/static/js/787.4192f880.chunk.js",
     "static/media/flavor-express.png": "/cheykim-portfolio/static/media/flavor-express.56f087f8c25a75a4eaf2.png",
     "static/media/music-matcher.png": "/cheykim-portfolio/static/media/music-matcher.efb518d2e821a67e9d36.png",
     "static/media/celine-fanpage.png": "/cheykim-portfolio/static/media/celine-fanpage.33390d6c0a33576e4de7.png",
+    "static/media/kcheykim_resume.pdf": "/cheykim-portfolio/static/media/kcheykim_resume.a01092487d7987f1270d.pdf",
     "static/media/coding-quiz.png": "/cheykim-portfolio/static/media/coding-quiz.54fcf0ee522e1c0c024d.png",
     "static/media/fern.jpeg": "/cheykim-portfolio/static/media/fern.f909166f5afbaea00770.jpeg",
     "static/media/weather-dashboard.png": "/cheykim-portfolio/static/media/weather-dashboard.d1b7cebb42545c5ef537.png",
@@ -16,11 +17,11 @@
     "static/media/note-taker-landing.png": "/cheykim-portfolio/static/media/note-taker-landing.d29e86a15c6fe45d944b.png",
     "index.html": "/cheykim-portfolio/index.html",
     "main.3d35848d.css.map": "/cheykim-portfolio/static/css/main.3d35848d.css.map",
-    "main.74a52486.js.map": "/cheykim-portfolio/static/js/main.74a52486.js.map",
+    "main.52284bb1.js.map": "/cheykim-portfolio/static/js/main.52284bb1.js.map",
     "787.4192f880.chunk.js.map": "/cheykim-portfolio/static/js/787.4192f880.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d35848d.css",
-    "static/js/main.74a52486.js"
+    "static/js/main.52284bb1.js"
   ]
 }
