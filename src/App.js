@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 
 function App() {
   const [categories] = useState([
-    { name: 'Home', description: 'A showcase of my projects and weekly challenges.' },
+    // { name: 'Home', description: 'A showcase of my projects and weekly challenges.' },
     { name: 'About', description: 'A showcase of my projects and weekly challenges.' },
     { name: 'Portfolio', description: 'A showcase of my projects and weekly challenges.' },
     { name: 'Contact', description: 'Ways to contact me.' },

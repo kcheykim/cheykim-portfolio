@@ -1,11 +1,11 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 
 function Nav(props) {
   const {
     categories = [],
     setCurrentCategory,
     currentCategory
-   // contactSelected,
+    // contactSelected,
     // setContactSelected,
   } = props;
 
