@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cheykim-portfolio/static/css/main.3d35848d.css",
+    "main.js": "/cheykim-portfolio/static/js/main.69cbe841.js",
+    "static/js/787.4192f880.chunk.js": "/cheykim-portfolio/static/js/787.4192f880.chunk.js",
+    "static/media/flavor-express.png": "/cheykim-portfolio/static/media/flavor-express.56f087f8c25a75a4eaf2.png",
+    "static/media/music-matcher.png": "/cheykim-portfolio/static/media/music-matcher.efb518d2e821a67e9d36.png",
+    "static/media/celine-fanpage.png": "/cheykim-portfolio/static/media/celine-fanpage.33390d6c0a33576e4de7.png",
+    "static/media/coding-quiz.png": "/cheykim-portfolio/static/media/coding-quiz.54fcf0ee522e1c0c024d.png",
+    "static/media/fern.jpeg": "/cheykim-portfolio/static/media/fern.f909166f5afbaea00770.jpeg",
+    "static/media/weather-dashboard.png": "/cheykim-portfolio/static/media/weather-dashboard.d1b7cebb42545c5ef537.png",
+    "static/media/work-day-scheduler.png": "/cheykim-portfolio/static/media/work-day-scheduler.122bede002725598face.png",
+    "static/media/password-generator.png": "/cheykim-portfolio/static/media/password-generator.627d26691c9bcd31cfaa.png",
+    "static/media/my-image.JPG": "/cheykim-portfolio/static/media/my-image.32e1ece980ed96535f21.JPG",
+    "static/media/purpleLandscape.jpeg": "/cheykim-portfolio/static/media/purpleLandscape.6061a184e3d7ddcf8a0f.jpeg",
+    "static/media/note-taker-landing.png": "/cheykim-portfolio/static/media/note-taker-landing.d29e86a15c6fe45d944b.png",
+    "index.html": "/cheykim-portfolio/index.html",
+    "main.3d35848d.css.map": "/cheykim-portfolio/static/css/main.3d35848d.css.map",
+    "main.69cbe841.js.map": "/cheykim-portfolio/static/js/main.69cbe841.js.map",
+    "787.4192f880.chunk.js.map": "/cheykim-portfolio/static/js/787.4192f880.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d35848d.css",
+    "static/js/main.69cbe841.js"
+  ]
+}
