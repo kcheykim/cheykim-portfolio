@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 
 function App() {
   const [categories] = useState([
@@ -25,7 +26,7 @@ function App() {
       return <Contact currentCategory={currentCategory} />;
     }
     if (currentCategory.name === "Resume") {
-      return <Portfolio currentCategory={currentCategory} />;
+      return <Resume currentCategory={currentCategory} />;
     }
   }
 
