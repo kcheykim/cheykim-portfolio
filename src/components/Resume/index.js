@@ -3,6 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { DiReact, DiMongodb } from "react-icons/di";
 import { faNodeJs } from "react-icons/fa";
 import { GrNode, GrHeroku } from "react-icons/gr";
+import pdf from "../../assets/images/kcheykim_resume.pdf";
 
 function Resume() {
   return (
@@ -12,7 +13,7 @@ function Resume() {
         <h3 className="mx-5"><BsGithub /> <DiReact /> <DiMongodb /> <GrNode /> <GrHeroku /> </h3>
       </div>
       <div>
-      <a href="/assets/images/kcheykim_resume.pdf"><button>Resume</button></a>
+      <a href={pdf}><button>Resume</button></a>
       </div>
     </section>
   );
