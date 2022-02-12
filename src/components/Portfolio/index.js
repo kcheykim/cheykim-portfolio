@@ -5,7 +5,7 @@ function Portfolio({ currentCategory }) {
   const { name, description } = currentCategory;
   return (
     <section id="portfolio">
-      <h1>{name}</h1>
+      <h2>{name}</h2>
       <p>{description}</p>
       <PortfolioList  />
     </section>

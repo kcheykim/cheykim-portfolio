@@ -4,7 +4,12 @@ import coverImage from "../../assets/images/me/my-image.JPG";
 function About() {
   return (
     <section id="about">
-      <h1>About Me</h1>
+      <h2>About Me</h2>
+      <h3 id="quote-header">Perserverance, Determination, & Focus</h3>
+      <h4 id="quote">“You may encounter many defeats, but you must not be defeated. In fact, it may be 
+        necessary to encounter the defeats, so you can know who you are, what you can rise from, how 
+        you can still come out of it.” <br /> ― Maya Angelou
+      </h4>
       <div>
         <img src={coverImage} className="my-2" style={{ alignItems: "center", width: "10%", marginLeft: "5%" }} alt="cover" />
         <div id="left" style={{ float: "right", width: "70%", marginRight: "10%" }}>
