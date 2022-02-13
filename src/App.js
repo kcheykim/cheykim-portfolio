@@ -1,30 +1,22 @@
 import React, { useState } from "react";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [categories] = useState([
-    // { name: "Home", description: "A showcase of my projects and weekly challenges." },
-    { name: "About", description: "A showcase of my projects and weekly challenges." },
+    { name: "About", description: "This is me!" },
     { name: "Portfolio", description: "A showcase of my projects and weekly challenges." },
     { name: "Contact", description: "You can submit the form, email me or go to my GitHub." },
-    { name: "Resume", description: "Here is my resume." }
-  ]);
-
-  const [tech] = useState([
-    // { name: "Home", description: "A showcase of my projects and weekly challenges." },
-    { name: "Front-End", description: "html, css, javascript" },
-    { name: "Back-End", description: "this node/express project" },
-    { name: "Fullstack", description: "usign both front end and backend" }
+    { name: "Resume", description: "Click the button to download my resume." }
   ]);
 
   const renderPage = () => {
     if (currentCategory.name === "Portfolio") {
-      return <Portfolio currentCategory={currentCategory} tech={tech} />;
+      return <Portfolio currentCategory={currentCategory} />;
     }
     if (currentCategory.name === "About") {
       return <About currentCategory={currentCategory} />;
@@ -41,10 +33,10 @@ function App() {
   //set to categories[0] for initial state
   return (
     <div>
-      <Nav categories={categories}
+      <Header categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}>
-      </Nav>
+      </Header>
       <main>
         {renderPage()}
       </main>

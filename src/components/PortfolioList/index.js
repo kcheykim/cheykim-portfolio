@@ -70,8 +70,6 @@ const PortfolioList = ({tech}) => {
     }
   ]);
 
-  const currentProjects = projects.filter((project) => project.tech === tech.name);
-
   return (
     <div>
       <div className="flex-row">

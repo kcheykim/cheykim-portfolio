@@ -1,17 +1,11 @@
 import React, { useEffect } from 'react';
 
-function Nav(props) {
+function Header(props) {
   const {
     categories = [],
     setCurrentCategory,
     currentCategory
-    // contactSelected,
-    // setContactSelected,
   } = props;
-
-  // function categorySelected() {
-  //   console.log('hello')
-  // }
 
   useEffect(() => {
     document.title = currentCategory.name;
@@ -40,8 +34,9 @@ function Nav(props) {
           ))}
         </ul>
       </nav>
+      
     </header>
   );
 }
 
-export default Nav;
+export default Header;

@@ -4,15 +4,16 @@ import coverImage from "../../assets/images/me/my-image.JPG";
 function About() {
   return (
     <section id="about">
-      <h2>About Me</h2>
-      <h3 id="quote-header">Perserverance, Determination, & Focus</h3>
+      <h2>Perserverance, Determination, & Focus</h2>
       <h4 id="quote">“You may encounter many defeats, but you must not be defeated. In fact, it may be 
         necessary to encounter the defeats, so you can know who you are, what you can rise from, how 
         you can still come out of it.” <br /> ― Maya Angelou
       </h4>
-      <div>
-        <img src={coverImage} className="my-2" style={{ alignItems: "center", width: "10%", marginLeft: "5%" }} alt="cover" />
-        <div id="left" style={{ float: "right", width: "70%", marginRight: "10%" }}>
+      <div id="sideByside" className="flex-row">
+        <div id="me-image">        
+          <img id="me" src={coverImage} alt="potrait of Kosal Cheykim"/>
+        </div>
+        <div id="left">
           <p>Hi, my name is Kosal Cheykim. I am currently studying Full Stack Development at UC Berkley Extension.
             I hold both an Associate Degree of Art and Science from Santa Rosa Junior College.
             I also hold a Bachelor of Science degree in Computer Science with Mathematic Minor from Sonoma State University.
