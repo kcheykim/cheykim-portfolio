@@ -21,7 +21,6 @@
   --spacing-five: calc(2.5rem);
 }
 
-
 body {
   margin: 0;
   padding-bottom: 5%;
@@ -31,7 +30,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Comic Sans', cursive;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-image: url("../src/assets/images/purpleLandscape.jpeg");
   background-size: cover;
   display: flex;
@@ -65,7 +64,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Comic Sans', cursive;
   font-size: 2rem;
   font-weight: 500;
   margin: 5px 0;
@@ -73,7 +72,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Brush Script MT', cursive;
+  font-family: 'Comic Sans', cursive;
   font-size: 1.5rem;
   font-weight: 500;
   margin: 5px 0;
@@ -122,6 +121,7 @@ header {
     100% 100%, /* right bottom */
     0 80% /* left bottom */
   );
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -195,7 +195,6 @@ nav a:hover {
 nav  li {
   cursor: pointer;
   font-size: 20px;
-  padding-top: 25px;
   letter-spacing: .3em;
 }
 
@@ -369,85 +368,3 @@ flex-wrap: wrap;
   /* margin-left: 5%;
   justify-content: center; */
 }
-
-/* Media Query starts */
-
-@media screen and (max-width: 980px) {
-  header {
-      padding-bottom: 0;
-      justify-content: center;
-      position: relative;
-  }
-  header h1 {
-      width: 100%;
-      text-align: center;
-  }
-  header nav ul {
-      margin-top: 20px;
-      width: 100%;
-      justify-content: center;
-  }
-  header nav ul li a {
-      font-size: 20px;
-  }
-  footer h4,
-  footer div {
-      text-align: center;
-      width: 100%;
-  }
-  .hero-cta {
-      text-align: center;
-      width: 100%;
-  }
-  .section-title h3 {
-      width: 100%;
-      justify-content: stretch;
-  }
-}
-
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-  section {
-      padding: 30px 15px;
-      flex: 1 100%;
-  }
-  .section-title {
-      flex: 2 100%;
-  }
-  .picture {
-      flex: 1;
-  }
-  #about-me p,
-  #contact-me p,
-  #resume p {
-      border-top: 3px solid var(--slate);
-      border-left: none;
-  }
-  .photo-display {
-      border-top: 3px solid var(--slate);
-      border-left: none;
-      flex: 0 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-  }
-}
-
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
-@media screen and (max-width: 575px) {
-  section {
-      width: 100%;
-      text-align: center;
-  }
-  section p {
-      width: 100%;
-      align-items: center;
-  }
-}
-
-
-
