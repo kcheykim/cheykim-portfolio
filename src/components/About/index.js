@@ -3,15 +3,15 @@ import coverImage from "../../assets/images/me/my-image.JPG";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" className="flex-row">
       <h2>Perserverance, Determination, & Focus</h2>
       <h4 id="quote">“You may encounter many defeats, but you must not be defeated. In fact, it may be 
         necessary to encounter the defeats, so you can know who you are, what you can rise from, how 
         you can still come out of it.” <br /> ― Maya Angelou
       </h4>
-      <div id="sideByside" className="flex-row">
+      <div id="sideByside">
         <div id="me-image">        
-          <img id="me" src={coverImage} alt="potrait of Kosal Cheykim"/>
+          <img id="me" className="flex-row" src={coverImage} className="my-2" alt="potrait of Kosal Cheykim"/>
         </div>
         <div id="left">
           <p>Hi, my name is Kosal Cheykim. I am currently studying Full Stack Development at UC Berkley Extension.
