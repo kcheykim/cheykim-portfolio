@@ -14,20 +14,9 @@ function Resume({ currentCategory }) {
         <a href={require("../../assets/images/kcheykim_resume.pdf")} download ><button>Resume</button></a>
       </div>
       <div id="outer-tools">
-          <h3 id="tools">
-            <li><BsGithub />GitHub </li>
-            <li><DiMongodb />MongoDB</li> 
-            <li><GrNode />Node.js/Express.js</li>  
-            <li><GrHeroku />Heroku</li>  
-            <li><DiHtml5 />HTML</li> 
-            <li><GrGraphQl />GraphQL</li>  
-            <li><SiApollographql />ApolloServer</li>  
-            <li><GrReactjs />React</li> 
-            <li><SiHandlebarsdotjs />Handlebars</li>  
-            <li><SiMysql />MySQL</li>  
-            <li><SiInsomnia />Insomnia</li> 
-            <li><BsBootstrap />Bootstrap</li> 
-            <li><SiJquery />jQuery</li>
+          <h3 id="tools" className="mx-5"><BsGithub />GitHub, <DiMongodb />MongoDB, <GrNode />Node/Express/JavaScript, 
+          <GrHeroku />Heroku, <DiHtml5 />HTML, <GrGraphQl />GraphQL, <SiApollographql />ApolloServer, <GrReactjs />React, 
+          <SiHandlebarsdotjs />Handlebars, <SiMysql />MySQL, <SiInsomnia />Insomnia, <BsBootstrap />Bootstrap, <SiJquery />jQuery
           </h3>
         </div>
     </section>

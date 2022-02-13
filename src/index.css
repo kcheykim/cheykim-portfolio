@@ -27,10 +27,9 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: .1em;
+  letter-spacing: .2em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-image: url("../src/assets/images/purpleLandscape.jpeg");
   background-size: cover;
   display: flex;
@@ -41,12 +40,12 @@ body {
 #portfolio,
 #contact,
 #resume{
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 3rem;
   padding-top: 25px;
   font-weight: bolder;
@@ -55,7 +54,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 2.5rem; 
   font-weight: bold;
   margin: 5px 0;
@@ -64,7 +63,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Comic Sans MS', 'Comic Sans' cursive;
+  font-family: 'Calibri', 'Trebuchet MS','Arial', 'Gill Sans', 'Gill Sans MT', sans-serif;
   font-size: 2rem;
   font-weight: 500;
   margin: 5px 0;
@@ -72,7 +71,7 @@ h3 {
 }
 
 h4 {
-  font-family: 'Comic Sans', cursive;
+  font-family: 'Trebuchet MS','Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   margin: 5px 0;
@@ -80,7 +79,7 @@ h4 {
 }
 
 h5 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
   margin: 5px 0;
@@ -88,7 +87,7 @@ h5 {
 }
 
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
   margin: 5px 0;
@@ -96,8 +95,8 @@ h6 {
 }
 
 p {
-  font-size: 1.1rem;
-  margin-top: 0;
+  font-size: 1.15rem;
+  margin-top: 20px;
 }
 
 a {
@@ -129,8 +128,6 @@ header {
   padding-top: 1%;
 }
 
-
-
 header a {
   color: var(--light);
 }
@@ -151,10 +148,10 @@ button:hover {
   opacity: .5;
 }
 
-button[disabled] {
+/* button[disabled] {
   cursor: default;
   opacity: .8;
-}
+} */
 
 img {
   max-width: 100%;
@@ -201,29 +198,29 @@ nav  li {
 textarea {
 	width: 600px;
 	height: 120px;
-	border: 3px solid #cccccc;
+	border: 3px solid var(--light);
 	padding: 5px;
 }
 
-.container {
+/* .container {
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
 
-.space-between {
+/* .space-between {
   justify-content: space-between;
 }
 
 .flex-end {
   justify-content: flex-end;
-}
+} */
 
 .mx-1 {
   margin-right: var(--spacing-one);
@@ -275,10 +272,10 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
+/* .card {
   width: 25%;
   text-align: center;
-}
+} */
 
 .img-thumbnail {
   width: auto;
@@ -340,29 +337,30 @@ a {
 }
 
 #sideByside {
+background-color: rgb(212, 129, 237);
+opacity: 90%;
 justify-content: center;
 flex-wrap: wrap;
 }
 
 #me-image {
+  justify-content: center;
   width: 200px;
   height: 300px;
   float: left;
- margin-right: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
 }
 
 #left {
-  width: "70%";
-}
-
-#outer-tools{
- margin-left: 10%;
-  width: 50%;
+  width: "60%";
+  justify-content: center;
 }
 
 #tools{
-  background-color: rgb(212, 129, 237);
-  padding: 5%;
-  justify-content: center;
+  justify-content: space-between;
+  line-height: 1.5;
   opacity: 75%;
+  color: var(--darker);
+  font-weight: bolder;
 }
