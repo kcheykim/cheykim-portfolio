@@ -21,14 +21,6 @@ const PortfolioList = ({tech}) => {
       git: "https://github.com/kcheykim/MusicMatcher.git"
     },
     {
-      name: "Celion Dion Fan Page",
-      src: "celine-fanpage.png",
-      tech: "Front-End",
-      description: "A Fan Page for Celion Dion.",
-      link: "https://kcheykim.github.io/fanpage-prework/",
-      git: "https://github.com/kcheykim/fanpage-prework.git"
-    },
-    {
       name: "Coding Quiz",
       src: "coding-quiz.png",
       tech: "Front-End",
@@ -43,14 +35,6 @@ const PortfolioList = ({tech}) => {
       description: "An note taking app.",
       link: "https://sleepy-cove-15810.herokuapp.com/",
       git: "https://github.com/kcheykim/note-taker.git"
-    },
-    {
-      name: "Password Generator",
-      src: "password-generator.png",
-      tech: "Front-End",
-      description: "A password generator app.",
-      link: "https://kcheykim.github.io/password-generator/",
-      git: "https://github.com/kcheykim/password-generator.git"
     },
     {
       name: "Weather Dashboard",

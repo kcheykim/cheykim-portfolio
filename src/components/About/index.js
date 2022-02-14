@@ -11,7 +11,7 @@ function About() {
       </h4>
       <div id="sideByside">
         <div id="me-image">        
-          <img id="me" className="flex-row" src={coverImage} className="my-2" alt="potrait of Kosal Cheykim"/>
+          <img id="me" src={coverImage} className="my-2" alt="potrait of Kosal Cheykim"/>
         </div>
         <div id="left">
           <p>Hi, my name is Kosal Cheykim. I am currently studying Full Stack Development at UC Berkley Extension.

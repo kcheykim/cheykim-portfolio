@@ -332,7 +332,6 @@ a {
 #contact-form {
   padding: 1%;
   margin-left: 10px;
-  border: var(--darker) solid 3px;
   border-radius: 10px;
 }
 
