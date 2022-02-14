@@ -341,6 +341,7 @@ background-color: rgb(212, 129, 237);
 opacity: 90%;
 justify-content: center;
 flex-wrap: wrap;
+padding: 10px;
 }
 
 #me-image {
@@ -349,7 +350,7 @@ flex-wrap: wrap;
   height: 300px;
   float: left;
   margin-right: 5%;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 #left {
