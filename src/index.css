@@ -47,7 +47,6 @@ body {
 h1 {
   font-family: 'Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   font-size: 3rem;
-  padding-top: 25px;
   font-weight: bolder;
   margin: 5px 0;
   line-height: 1.25;
@@ -113,7 +112,7 @@ header {
   background: var(--dark);
   background-image: url("../src/assets/images/fern.jpeg");
   background-size: cover;
-  height: 200px;
+  height: 300px;
   clip-path: polygon(
     0 0, /* left top */
     100% 0, /* right top */ 
@@ -355,12 +354,13 @@ flex-wrap: wrap;
 #left {
   width: "60%";
   justify-content: center;
+  color: var(--dark);
 }
 
 #tools{
   justify-content: space-between;
   line-height: 1.5;
   opacity: 75%;
-  color: var(--darker);
+  color: var(--dark);
   font-weight: bolder;
 }
