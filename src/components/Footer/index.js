@@ -8,9 +8,9 @@ const Footer = () => {
       <div className="container">
       <h6>&copy;{new Date().getFullYear()} by Kosal Cheykim
         <span>
-          <a className="mx-2" href="https://github.com/kcheykim"><BsGithub /></a>
-          <a className="mx-2" href="mailto:kosalcheykim@gmail.com"><MdEmail /></a>
-          <a className="mx-2" href="https://www.linkedin.com/in/kosal-cheykim-75484321b/"><ImLinkedin /></a>
+          <a className="mx-1" href="https://github.com/kcheykim"><BsGithub /></a>
+          <a className="mx-1" href="mailto:kosalcheykim@gmail.com"><MdEmail /></a>
+          <a className="mx-1" href="https://www.linkedin.com/in/kosal-cheykim-75484321b/"><ImLinkedin /></a>
         </span></h6>
       </div>
     </footer>
