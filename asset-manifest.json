@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cheykim-portfolio/static/css/main.5bffd76e.css",
+    "main.css": "/cheykim-portfolio/static/css/main.ee6e995b.css",
     "main.js": "/cheykim-portfolio/static/js/main.46ed0ee1.js",
     "static/js/787.4192f880.chunk.js": "/cheykim-portfolio/static/js/787.4192f880.chunk.js",
     "static/media/flavor-express.png": "/cheykim-portfolio/static/media/flavor-express.56f087f8c25a75a4eaf2.png",
@@ -16,12 +16,12 @@
     "static/media/purpleLandscape.jpeg": "/cheykim-portfolio/static/media/purpleLandscape.6061a184e3d7ddcf8a0f.jpeg",
     "static/media/note-taker-landing.png": "/cheykim-portfolio/static/media/note-taker-landing.d29e86a15c6fe45d944b.png",
     "index.html": "/cheykim-portfolio/index.html",
-    "main.5bffd76e.css.map": "/cheykim-portfolio/static/css/main.5bffd76e.css.map",
+    "main.ee6e995b.css.map": "/cheykim-portfolio/static/css/main.ee6e995b.css.map",
     "main.46ed0ee1.js.map": "/cheykim-portfolio/static/js/main.46ed0ee1.js.map",
     "787.4192f880.chunk.js.map": "/cheykim-portfolio/static/js/787.4192f880.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bffd76e.css",
+    "static/css/main.ee6e995b.css",
     "static/js/main.46ed0ee1.js"
   ]
 }
