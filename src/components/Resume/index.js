@@ -11,7 +11,7 @@ function Resume({ currentCategory }) {
       <div>
         <h2>{name}</h2>
         <p>{description}</p>
-        <a href={require("../../assets/images/kcheykim_resume.pdf")} download ><button>Resume</button></a>
+        <a href={require("../../assets/images/kosalcheykim_resume.pdf")} download ><button>Resume</button></a>
       </div>
       <div id="outer-tools">
           <h3 id="tools" className="mx-5"><BsGithub />GitHub, <DiMongodb />MongoDB, <GrNode />Node/Express/JavaScript, 
