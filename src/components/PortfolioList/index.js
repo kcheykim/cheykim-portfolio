@@ -5,10 +5,10 @@ const PortfolioList = ({tech}) => {
 
   const [projects] = useState([
     {
-      name: "GIFT - Gift Ideas For Them",
+      name: "GIFT",
       src: "gift.png",
       tech: "Fullstack",
-      description: "A gift solution app.",
+      description: "Gift Ideas For Them is a solution app.",
       link: "https://gift-p3.herokuapp.com/",
       git: "https://github.com/kcheykim/GIFT.git"
     },
@@ -64,7 +64,7 @@ const PortfolioList = ({tech}) => {
 
   return (
     <div>
-      <div className="flex-row">
+      <div className="project-container flex-row">
         {projects.map((project, i) => (
          <Project project={project} />
         ))}
