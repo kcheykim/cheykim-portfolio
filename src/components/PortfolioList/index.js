@@ -64,7 +64,7 @@ const PortfolioList = ({tech}) => {
 
   return (
     <div>
-      <div className="project-container flex-row">
+      <div className=" flex-row project-container">
         {projects.map((project, i) => (
          <Project project={project} />
         ))}

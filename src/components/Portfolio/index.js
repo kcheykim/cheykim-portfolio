@@ -4,7 +4,7 @@ import PortfolioList from '../PortfolioList';
 function Portfolio({ currentCategory }) {
   const { name, description } = currentCategory;
   return (
-    <section id="portfolio">
+    <section id='portfolio'>
       <h2>{name}</h2>
       <p>{description}</p>
       <PortfolioList />
