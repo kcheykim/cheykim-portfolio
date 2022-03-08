@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheykim-portfolio/static/css/main.c3129f19.css",
-    "main.js": "/cheykim-portfolio/static/js/main.5226ac21.js",
+    "main.css": "/cheykim-portfolio/static/css/main.17ae2104.css",
+    "main.js": "/cheykim-portfolio/static/js/main.801876bf.js",
     "static/js/787.4192f880.chunk.js": "/cheykim-portfolio/static/js/787.4192f880.chunk.js",
     "static/media/frost.jpeg": "/cheykim-portfolio/static/media/frost.6778ff96d6d848414a7b.jpeg",
     "static/media/flavor-express.png": "/cheykim-portfolio/static/media/flavor-express.56f087f8c25a75a4eaf2.png",
@@ -17,12 +17,12 @@
     "static/media/my-image.JPG": "/cheykim-portfolio/static/media/my-image.32e1ece980ed96535f21.JPG",
     "static/media/note-taker-landing.png": "/cheykim-portfolio/static/media/note-taker-landing.d29e86a15c6fe45d944b.png",
     "index.html": "/cheykim-portfolio/index.html",
-    "main.c3129f19.css.map": "/cheykim-portfolio/static/css/main.c3129f19.css.map",
-    "main.5226ac21.js.map": "/cheykim-portfolio/static/js/main.5226ac21.js.map",
+    "main.17ae2104.css.map": "/cheykim-portfolio/static/css/main.17ae2104.css.map",
+    "main.801876bf.js.map": "/cheykim-portfolio/static/js/main.801876bf.js.map",
     "787.4192f880.chunk.js.map": "/cheykim-portfolio/static/js/787.4192f880.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3129f19.css",
-    "static/js/main.5226ac21.js"
+    "static/css/main.17ae2104.css",
+    "static/js/main.801876bf.js"
   ]
 }
