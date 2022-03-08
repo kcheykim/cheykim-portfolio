@@ -11,7 +11,7 @@ const Project = ({ project }) => {
                 alt={project.name}
                 className="img-thumbnail"
                 key={project.name} /></a>
-            <p>{project.description}</p>
+            <p id="description">{project.description}</p>
         </div>
     );
 };

@@ -34,16 +34,16 @@ body {
   background-attachment: fixed;
   background-image: url("../src/assets/images/purple_water.jpeg");
   background-size: cover;
-  /* display: flex; */
-  /* flex-direction: column; */
 }
 
 #about,
 #portfolio,
 #contact,
 #resume{
- margin-left: 5%;
- margin-right: 5%;
+ margin-left: 10%;
+ margin-right: 10%;
+ justify-items: center;
+ justify-content: space-around;
 }
 
 h1 {
@@ -73,7 +73,7 @@ h3 {
 
 h4 {
   font-family: 'Trebuchet MS','Arial', 'Gill Sans', 'Gill Sans MT', 'Calibri', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -159,11 +159,6 @@ button:hover {
   opacity: .5;
 }
 
-/* button[disabled] {
-  cursor: default;
-  opacity: .8;
-} */
-
 img {
   max-width: 100%;
 }
@@ -215,33 +210,10 @@ textarea {
 	padding: 5px;
 }
 
-/* main {
-  display: flexbox;
-} */
-/* .container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
-
-/* .space-between {
-  justify-content: space-between;
-}
-
-.flex-end {
-  justify-content: flex-end;
-} */
-
-/* .project-container {
- width: 100%;
- flex-direction: row;
-} */
 
 .mx-1 {
   margin-right: var(--spacing-one);
@@ -293,14 +265,9 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-/* .card {
-  width: 25%;
-  text-align: center;
-} */
-
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 250px;
   /* width: 50%; */
   cursor: pointer;
   transition: all .2s ease-in-out;
@@ -356,13 +323,14 @@ a {
   border-radius: 10px;
 }
 
-/* #sideByside {
-background-color: rgb(212, 129, 237);
-opacity: 90%;
-justify-content: center;
-flex-wrap: wrap;
-padding: 10px;
-} */
+#description {
+  font-size: 1rem;
+  margin-top: 5px;
+  font-family: Helvetica, Arial, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-display: auto;
+  color: var(--darker);
+  line-height: 1.5;
+}
 
 #me-image {
   justify-content: center;
@@ -386,7 +354,25 @@ padding: 10px;
   color: var(--dark);
   font-weight: bolder;
 }
-/* Media Query starts */
+
+
+/* Media Query Next Size To Flex */
+@media screen and (max-width: 1270px) {
+  .img-thumbnail {
+    width: auto;
+    height: 200px;
+  }
+  
+  h4{
+    font-size: 1.2rem;
+  }
+
+  #description {
+    font-size: .9rem;
+  }
+}
+
+
 
 @media screen and (max-width: 1030px) {
   header {
@@ -409,19 +395,13 @@ padding: 10px;
       font-size: 20px;
       padding-bottom: 5%;
   }
-
+  h4 {
+    font-size: 1rem;
+  }
   footer h4,
   footer div {
       text-align: center;
       width: 100%;
-  }
-  .hero-cta {
-      text-align: center;
-      width: 100%;
-  }
-  .section-title h3 {
-      width: 100%;
-      justify-content: stretch;
   }
 }
 
@@ -430,41 +410,20 @@ padding: 10px;
 }
 
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-  section {
-      padding: 30px 15px;
-      flex: 1 100%;
-  }
-  .section-title {
-      flex: 2 100%;
-  }
-  .picture {
-      flex: 1;
-  }
-  #about-me p,
-  #contact-me p,
-  #resume p {
-      border-top: 3px solid var(--slate);
-      border-left: none;
-  }
-  .photo-display {
-      border-top: 3px solid var(--slate);
-      border-left: none;
-      flex: 0 0 32%;
-      margin-right: 0;
-      margin-top: 15px;
-      margin-bottom: 15px;
-  }
-}
-
-
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
  header {
       width: fit-content;
+  }
+
+  .img-thumbnail {
+    width: auto;
+    height: 150px;
+  }
+  
+  h4{
+    font-size: 1rem;
   }
 
 }
